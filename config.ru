@@ -3,4 +3,4 @@ Bundler.require
 
 require './app/app'
 
-run DoSomethinFfs
+run DoSomethingFfs
