@@ -1,7 +1,37 @@
-body {
-	
+.container {
+	margin-top: 10%;
 }
 
 .selection {
-	
+	height: 500px;
+	overflow: hidden;	
+	font-family: 'Questrial', sans-serif;
+	text-decoration: none;
+}
+
+.home-img {
+	width: 100%;
+}
+
+.choice {
+	margin-top: -230px;
+	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#burned-out:hover {
+	color: #0052A5;
+}
+
+#fired-up:hover {
+	color: #E0162B;
 }
