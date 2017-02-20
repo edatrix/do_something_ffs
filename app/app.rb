@@ -15,5 +15,13 @@ class DoSomethingFfs < Sinatra::Base
   get '/i-can-help' do
     erb :help
   end
+
+  get '/i-have-an-idea' do
+    erb :idea
+  end
+
+  get '/i-can-call' do
+    erb :call
+  end
   
 end
