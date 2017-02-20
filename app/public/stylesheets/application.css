@@ -1,3 +1,13 @@
+body {
+	background: url(/images/blurry_flag.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+}
+
 .container {
 	margin-top: 10%;
 }
@@ -9,15 +19,18 @@
 	text-decoration: none;
 }
 
-.home-img {
+.home-img, .fired-choice-2-img {
 	width: 100%;
 }
 
 .choice {
 	margin-top: -230px;
-	text-align: center;
 	font-size: 55px;
-	font-weight: bold;
+}
+
+.fired-choice-2 {
+	margin-top: -170px;
+	font-size: 35px;
 }
 
 a {
