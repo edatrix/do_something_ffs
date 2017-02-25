@@ -1,5 +1,5 @@
 body {
-	padding-top: 30px;
+	padding-top: 50px;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 	margin-top: -220px;
 }
 
-.choice {
+.fired-up, .choice {
 	position: absolute;
 	margin: 0;
 	max-height: 370px;
