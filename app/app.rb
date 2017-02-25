@@ -23,5 +23,13 @@ class DoSomethingFfs < Sinatra::Base
   get '/i-can-call' do
     erb :call
   end
+
+  get '/i-have-time' do
+    erb :time
+  end
+
+  get '/i-have-money' do
+    erb :money
+  end
   
 end
