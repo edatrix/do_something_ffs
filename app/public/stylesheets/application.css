@@ -1,7 +1,18 @@
 body {
 	padding-top: 50px;
   text-align: center;
-  font-weight: bold;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container {
+	margin-top: 10%;
 }
 
 #home {
@@ -38,14 +49,20 @@ body {
   background-size: cover;	
 }
 
-.container {
-	margin-top: 10%;
+#calm {
+	margin-top: 3% !important;
+	background: url(/images/calm.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
 }
 
 .selection {
 	height: 500px;
 	overflow: hidden;	
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -82,14 +99,6 @@ body {
 	font-size: 35px;
 }
 
-a {
-	color: #fff;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
 #burned-out:hover {
 	color: #0052A5;
 }
@@ -97,3 +106,37 @@ a:hover {
 #fired-up:hover {
 	color: #E0162B;
 }
+
+/*/////////BURNED OUT/////////*/
+
+#burned-out {
+	margin-top: -5%;
+}
+
+#bo-row {
+	margin-top: 40px;
+}
+
+.burned-out-option {
+	margin: 25px;
+	background: #DFE2D7;
+	border-radius: 200px;
+  height: 200px;
+  padding-top: 80px;
+  font-size: 19px;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+}
+
+#bo-row a {
+	color: #132538;
+}
+
+#bo-row a:hover {
+	color: #6F828C;
+}
+
+
+
+
+
